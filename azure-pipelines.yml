@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'MyWindows'
+  name: 'MyWindows'
   demands:
   - npm
 
