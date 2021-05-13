@@ -65,6 +65,8 @@ steps:
   parameters:
     buildConfiguration: 'Release'
 
+# template use above
+
 - task: PublishBuildArfacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
