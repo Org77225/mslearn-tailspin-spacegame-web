@@ -44,6 +44,7 @@ steps:
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
     vstsFeed: '05 Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models2'
+    includeNuGetOrg: false
 
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - $(buildConfiguration)'
